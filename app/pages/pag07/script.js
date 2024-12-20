@@ -1,2 +1,2 @@
-events.on("ready",function(){$(".botao").on("click",function(){$(this).removeClass("wow animated"),$(this).find(".card-color").css("background-color","#8696BC")})});
+events.on("ready",function(){1==scorm.loadObject("pag07")&&($(".botao").removeClass("wow animated"),$(".botao").addClass("visited"),$(".card-color").css("background-color","#8696BC"),$(".arrow-right").removeClass("hide")),$(".botao").on("click",function(){$(this).removeClass("wow animated"),$(this).addClass("visited"),$(this).find(".card-color").css("background-color","#8696BC"),$(".botao").length===$(".botao.visited").length&&scorm.saveObject("pag07",!0)})});
 //# sourceMappingURL=script.js.map
